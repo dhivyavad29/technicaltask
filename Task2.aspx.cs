@@ -19,9 +19,7 @@ foreach (DataRow dr in dtActionUpdated.Rows)
 {
 splittedRecordsSet.Tables[1].ImportRow(dr);
 }
-Internal Use
-Internal Use
 }
 }
 splittedRecordsSet.Tables[1].TableName = "Duplicates";
-splittedRecordsSet.Tables[1].AcceptChanges();][
+splittedRecordsSet.Tables[1].AcceptChanges();
